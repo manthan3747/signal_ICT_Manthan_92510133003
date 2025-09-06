@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signal-ICT-Manthan-92510133003"
+version = "1.0.0"
+authors = [
+    {name = "Manthan", email = "your.email@example.com"},
+]
+description = "A Python package for signal generation and operations"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["signal processing", "DSP", "education"]
+dependencies = [
+    "numpy>=1.20.0",
+    "matplotlib>=3.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/signal_ICT_Manthan_92510133003"
+Repository = "https://github.com/yourusername/signal_ICT_Manthan_92510133003"
+"Bug Tracker" = "https://github.com/yourusername/signal_ICT_Manthan_92510133003/issues"

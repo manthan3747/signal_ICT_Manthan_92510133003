@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include MANIFEST.in
+include requirements.txt
+recursive-include signal_ICT_Manthan_92510133003 *.py
+global-exclude __pycache__
+global-exclude *.py[co]
